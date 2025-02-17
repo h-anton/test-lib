@@ -1,0 +1,25 @@
+{
+    "name": "Analog_Devices_Linduino_Library",
+    "version": "1.0.0",
+    "description": "Official library for LTC chips",
+    "keywords": ["custom", "embedded"],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/h-anton/test-lib.git"
+    },
+    "frameworks": "arduino",
+    "platforms": "*",
+    "dependencies": {
+	"SPI": "*"
+    },
+    "build": {
+        "srcFilter": [
+            "+<include/>",
+            "-<external_libraries/Linduino/>",
+            "+<external_libraries/Linduino/LTSketchbook/libraries/Linduino/>",
+            "+<external_libraries/Linduino/LTSketchbook/libraries/LT_SPI/>",
+            "+<external_libraries/Linduino/LTSketchbook/libraries/LTC681x/>",
+            "+<external_libraries/Linduino/LTSketchbook/libraries/LTC6811/>"
+        ]
+    }
+}
