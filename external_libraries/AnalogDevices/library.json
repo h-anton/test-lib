@@ -14,7 +14,6 @@
     },
     "build": {
         "srcFilter": [
-            "+<include/>",
             "-<external_libraries/AnalogDevices/Linduino/>",
             "+<external_libraries/AnalogDevices/Linduino/LTSketchbook/libraries/Linduino/>",
             "+<external_libraries/AnalogDevices/Linduino/LTSketchbook/libraries/LT_SPI/>",

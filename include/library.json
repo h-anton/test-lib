@@ -1,0 +1,20 @@
+{
+    "name": "VUBRacing_Library",
+    "version": "1.0.0",
+    "description": "custom library for VUBR",
+    "keywords": ["custom", "embedded"],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/h-anton/test-lib.git"
+    },
+    "frameworks": "arduino",
+    "platforms": "*",
+    "dependencies": {
+	
+    },
+    "build": {
+        "srcFilter": [
+            "+<include/>",
+        ]
+    }
+}
